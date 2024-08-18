@@ -4,21 +4,27 @@
   "description": "Ejemplo de portal, solo es para ambito educativo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sakhura/festival_musica.git"
   },
   "keywords": [
-    "SAAS",
+    "SASS",
     "NPM",
     "Gulp"
   ],
   "author": "Sabina Romero",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sakhura/festival_musica/issues"
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.75.0"
   },
-  "homepage": "https://github.com/Sakhura/festival_musica#readme"
+  "dependencies": {
+    "saas": "^1.0.0"
+  }
 }
