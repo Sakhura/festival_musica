@@ -2,6 +2,7 @@
   "name": "festival_musica",
   "version": "1.0.0",
   "description": "Ejemplo de portal, solo es para ambito educativo",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch src/scss:build/css",
